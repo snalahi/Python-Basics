@@ -48,7 +48,7 @@ print("Hello", n) #the comma creates a space between Hello and the input
 
 *** Multiple String segments with assigned variables can be placed in a print statement with comma
 print("Hrs =", hours, "Mins =", minutes, "Secs =", seconds) #here hours, minutes and seconds are pre-assigned variables
-Output => Hrs = (int) Mins = (int) Secs = (int) #commas work as space provider
+Output => Hrs = (int) Mins = (int) Secs = (int) #commas work as space provider (NEWLY FEATURED IN PYTHON3 !!!) 
 
 *** Suppose we have a class called "turtle". Now go through the following code snippet to get a better understanding
 on class specific methods (in most cases contructors to create a new instance or object of the specific class) and object
@@ -62,7 +62,7 @@ alex = turtle.Turtle()       #creates an instance / object of the Turtle class w
 alex.forward(150)            ###
 alex.left(90)                #bunch of actions on the "alex" object
 alex.forward(75)             ###
-
+alex.salary = 500000         #updating attribute / feature / property / primary variable of the "alex" object
 
                              
                              
