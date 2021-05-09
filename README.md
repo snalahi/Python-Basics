@@ -24,4 +24,18 @@ type(3.5) => <class 'float'>
 *** String
 print('''"Oh, no" she exclaimed, "Ben's bike is broken"''') => "Oh, no" she exclaimed, "Ben's bike is broken" 
 
+*** Variables
+message = ""
+n = 13
+pi = 3.14
+THE ABOVE ARE SET VARIABLES
+
+print(message)
+print(n)
+print(pi)
+THE ABOVE ARE REFERENCE VARIABLES
+
+Variable names always start with a letter
+"_" is treated as a letter in python
+
 ```
