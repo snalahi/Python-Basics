@@ -38,4 +38,13 @@ THE ABOVE ARE REFERENCE VARIABLES
 Variable names always start with a letter
 "_" is treated as a character in python
 
+*** There is a cool function called input() which takes user input from command line. The function does
+not need to be explicitly stated. Whenever the program execution comes accross the input() function in any
+form, it stops and ask for user input.
+
+for instance,
+n = input("Please enter your name: ") #input function with a prompt in the assignment(implicitly stated)
+print("Hello", n) #the comma creates a space between Hello and the input
+
+
 ```
