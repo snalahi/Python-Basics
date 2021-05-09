@@ -36,6 +36,6 @@ print(pi)
 THE ABOVE ARE REFERENCE VARIABLES
 
 Variable names always start with a letter
-"_" is treated as a letter in python
+"_" is treated as a character in python
 
 ```
