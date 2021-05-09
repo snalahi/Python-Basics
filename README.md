@@ -46,5 +46,11 @@ for instance,
 n = input("Please enter your name: ") #input function with a prompt in the assignment(implicitly stated)
 print("Hello", n) #the comma creates a space between Hello and the input
 
+*** Multiple String segments with assigned variables can be placed in a print statement with comma
+print("Hrs =", hours, "Mins =", minutes, "Secs =", seconds) #here hours, minutes and seconds are pre-assigned variables
+Output => Hrs = (int) Mins = (int) Secs = (int) #commas work as space provider
+
+
+
 
 ```
