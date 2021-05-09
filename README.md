@@ -54,14 +54,16 @@ Output => Hrs = (int) Mins = (int) Secs = (int) #commas work as space provider
 on class specific methods (in most cases contructors to create a new instance or object of the specific class) and object
 specific methods (which are called upon on the created object or instance of the class)
 
-import turtle                #imports the turtle class or program
-screen = turtle.Screen()     #creates the "screen" object with some built-in features by the Screen() constructor of the turtle class
-alex = turtle.Turtle()       #creates an instance of the turtle class with the name "alex" and some built-in features by the Turtle()
-                             #constructor of the turtle class
+import turtle                #imports the turtle program or library or package
+screen = turtle.Screen()     #creates the "screen" instance / object with some built-in features / attributes by the Screen()
+                             #constructor of the Screen class
+alex = turtle.Turtle()       #creates an instance / object of the Turtle class with the name "alex" and some built-in
+                             #features / attributes by the Turtle() constructor of the Turtle class
 alex.forward(150)            ###
 alex.left(90)                #bunch of actions on the "alex" object
 alex.forward(75)             ###
-                             
+
+
                              
                              
 
