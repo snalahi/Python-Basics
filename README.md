@@ -12,5 +12,16 @@
 3. Multiplication and Division
 4. Addition and Subtraction
 
+*** Functions are objects in Python
+e.g. print(square) => <function square>
+
+*** Data Type
+type() gives us the type of the given value
+e.g. type("") => <class 'str'>
+type(2) => <class 'int'>
+type(3.5) => <class 'float'>
+
+*** String
+print('''"Oh, no" she exclaimed, "Ben's bike is broken"''') => "Oh, no" she exclaimed, "Ben's bike is broken" 
 
 ```
