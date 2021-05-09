@@ -50,7 +50,20 @@ print("Hello", n) #the comma creates a space between Hello and the input
 print("Hrs =", hours, "Mins =", minutes, "Secs =", seconds) #here hours, minutes and seconds are pre-assigned variables
 Output => Hrs = (int) Mins = (int) Secs = (int) #commas work as space provider
 
+*** Suppose we have a class called "turtle". Now go through the following code snippet to get a better understanding
+on class specific methods (in most cases contructors to create a new instance or object of the specific class) and object
+specific methods (which are called upon on the created object or instance of the class)
 
+import turtle                #imports the turtle class or program
+screen = turtle.Screen()     #creates the "screen" object with some built-in features by the Screen() constructor of the turtle class
+alex = turtle.Turtle()       #creates an instance of the turtle class with the name "alex" and some built-in features by the Turtle()
+                             #constructor of the turtle class
+alex.forward(150)            ###
+alex.left(90)                #bunch of actions on the "alex" object
+alex.forward(75)             ###
+                             
+                             
+                             
 
 
 ```
