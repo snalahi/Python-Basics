@@ -71,6 +71,9 @@ for _ in range(3):
 
 #the above block of code will output three print statements and we omitted the variable consideration by "_"
                              
-
+*** Module
+import random               #random is a module
+random.random()             #random() is a function inside the random module
+random.randrange(1, 7)      #randrange(1, 7) is a function inside the random module
 
 ```
