@@ -1,4 +1,5 @@
 # Python-Basics-Python3-Specialization
+```
 *** Truncated division in python:
 (10 // 3) => 3; Wipes out all the decimal points
 
@@ -21,7 +22,8 @@ type(2) => <class 'int'>
 type(3.5) => <class 'float'>
 
 *** String
-print('''"Oh, no" she exclaimed, "Ben's bike is broken"''') => "Oh, no" she exclaimed, "Ben's bike is broken" 
+print('''"Oh, no" she exclaimed, "Ben's bike is broken"''') => "Oh, no" she exclaimed,
+                                                                "Ben's bike is broken" 
 
 *** Variables
 message = ""
@@ -37,9 +39,9 @@ THE ABOVE ARE REFERENCE VARIABLES
 Variable names always start with a letter
 "_" is treated as a character in python
 
-*** There is a cool function called input() which takes user input from command line. The function does
-not need to be explicitly stated. Whenever the program execution comes accross the input() function in any
-form, it stops and ask for user input.
+*** There is a cool function called input() which takes user input from command line.
+The function does not need to be explicitly stated. Whenever the program execution comes
+accross the input() function in any form, it stops and ask for user input.
 
 for instance,
 n = input("Please enter your name: ") #input function with a prompt in the assignment(implicitly stated)
@@ -91,4 +93,4 @@ randrange(1, 7)
 *** Three types of errors: Syntax, Runtime and Semantic Error
 
 
-
+```
