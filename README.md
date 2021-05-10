@@ -102,5 +102,16 @@ actually do. This actually does not create any hindrance to the program executio
 
 *** Three types of errors: Syntax, Runtime and Semantic Error
 
+*** Use triple quotes (""" """ or ''' ''') for multi-line string
+e.g.
+m = """ or '''
+    This is a
+    multi-line
+    String!
+    """ or '''
+
+    
+    
+    
 
 ```
