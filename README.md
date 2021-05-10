@@ -68,8 +68,7 @@ alex.salary = 500000         #updating attribute / feature / property / primary 
 e.g.
 for _ in range(3):
   print("Hello World!")
-  
-The above block of code will output three print statement and we omitted the variable consideration by "_"
+#the above block of code will output three print statements and we omitted the variable consideration by "_"
                              
 
 
