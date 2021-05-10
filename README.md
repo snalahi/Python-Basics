@@ -54,7 +54,7 @@ Output => Hrs = (int) Mins = (int) Secs = (int) #commas work as space provider (
 on class specific methods (in most cases contructors to create a new instance or object of the specific class) and object
 specific methods (which are called upon on the created object or instance of the class)
 
-import turtle                #imports the turtle program or library or package
+import turtle                #imports the turtle module (collection of classes)
 screen = turtle.Screen()     #creates the "screen" instance / object with some built-in features / attributes by the Screen()
                              #constructor of the Screen class
 alex = turtle.Turtle()       #creates an instance / object of the Turtle class with the name "alex" and some built-in
@@ -71,9 +71,26 @@ for _ in range(3):
 
 #the above block of code will output three print statements and we omitted the variable consideration by "_"
                              
-*** Module
+*** Module (collection of classes)
 import random               #random is a module
 random.random()             #random() is a function inside the random module
 random.randrange(1, 7)      #randrange(1, 7) is a function inside the random module
+
+*** Don't want to mention random module everytime you call a function, then do the following:
+from rendom import random, randrange
+*** Then just call the functions by their names:
+random()
+randrange(1, 7)
+
+*** EOF => End of File
+
+*** Semantic Error => The output is some erroneous representation of what the program should actually do.
+                      This actually does not create any hindrance to the program execution.
+
+*** Develop program incrementally, write 2 or 3 lines, test it and move forward.
+
+*** Three types of errors: Syntax, Runtime and Semantic Error
+
+
 
 ```
