@@ -70,11 +70,11 @@ alex = turtle.Turtle()       #creates an instance / object of the Turtle class w
 alex.forward(150)            ###
 alex.left(90)                #bunch of actions on the "alex" object
 alex.forward(75)             ###
-alex.salary = 500000         #updating attribute / feature / property / primary variable of the
-                             #"alex" object
+alex.salary = 500000         #updating attribute / feature / property / primary variable of
+                             #the "alex" object
 
-*** In case, you don't need to have the variable associated with an operation, "_" can be used
-in place of the variable name
+*** In case, you don't need to have the variable associated with an operation, "_" can be
+used in place of the variable name
 e.g.
 for _ in range(3):
   print("Hello World!")
