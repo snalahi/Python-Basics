@@ -110,6 +110,24 @@ m = """ or '''
     String!
     """ or '''
 
+*** Tuples are immutable whereas Lists are mutable.
+Single element tuple should be => (100,) #the comma sends message to the interpreter that,
+                                         #we are trying to make a single element tuple
+                                         #instead of a parenthesis closed integer
+
+*** Negative indexing
+Suppose, a string str = "Python"; Negative indexing will be like below:
+                         P    y    t    h    o    n
+                        -6   -5   -4   -3   -2   -1
+                        
+*** Indexing and Slicing
+Suppose, L is a list, then indexing will be L[0], L[3], L[5], L[9] etc.
+Slicing will be L[0:4]  #items from index 0 to index (4 - 1) = 3
+                L[3:7]  #items from index 3 to index (7 - 1) = 6
+                L[:5]   #all items from start to index (5 - 1) = 4
+                L[5:]   #all items from index 5 to end of the list
+
+
     
     
     
