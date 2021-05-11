@@ -44,34 +44,34 @@ The function does not need to be explicitly stated. Whenever the program executi
 accross the input() function in any form, it stops and ask for user input.
 
 for instance,
-n = input("Please enter your name: ") #input function with a prompt in the assignment
-                                      #(implicitly stated).
-print("Hello", n)                     #the comma creates a space between Hello and the input
+n = input("Please enter your name: ") # input function with a prompt in the assignment
+                                      # (implicitly stated).
+print("Hello", n)                     # the comma creates a space between Hello and the input
 
 *** Multiple String segments with assigned variables can be placed in a print statement with
 comma
-print("Hrs =", hours, "Mins =", minutes, "Secs =", seconds) #here hours, minutes and seconds
-                                                            #are pre-assigned variables
-Output => Hrs = (int) Mins = (int) Secs = (int)             #commas work as space provider
-                                                            #(NEWLY FEATURED IN PYTHON3 !!!) 
+print("Hrs =", hours, "Mins =", minutes, "Secs =", seconds) # here hours, minutes and seconds
+                                                            # are pre-assigned variables
+Output => Hrs = (int) Mins = (int) Secs = (int)             # commas work as space provider
+                                                            # (NEWLY FEATURED IN PYTHON3 !!!) 
 
 *** Suppose we have a class called "turtle". Now go through the following code snippet to
 get a better understanding on class specific methods (in most cases contructors to create
 a new instance or object of the specific class) and object specific methods (which are called
 upon on the created object or instance of the class)
 
-import turtle                #imports the turtle module (collection of classes)
-screen = turtle.Screen()     #creates the "screen" instance / object with some built-in
-                             #features / attributes by the Screen() constructor of the Screen
-                             #class
-alex = turtle.Turtle()       #creates an instance / object of the Turtle class with the name
-                             #"alex" and some built-in features / attributes by the Turtle()
-                             #constructor of the Turtle class
+import turtle                # imports the turtle module (collection of classes)
+screen = turtle.Screen()     # creates the "screen" instance / object with some built-in
+                             # features / attributes by the Screen() constructor of the Screen
+                             # class
+alex = turtle.Turtle()       # creates an instance / object of the Turtle class with the name
+                             # "alex" and some built-in features / attributes by the Turtle()
+                             # constructor of the Turtle class
 alex.forward(150)            ###
-alex.left(90)                #bunch of actions on the "alex" object
+alex.left(90)                # bunch of actions on the "alex" object
 alex.forward(75)             ###
-alex.salary = 500000         #updating attribute / feature / property / primary variable of
-                             #the "alex" object
+alex.salary = 500000         # updating attribute / feature / property / primary variable of
+                             # the "alex" object
 
 *** In case, you don't need to have the variable associated with an operation, "_" can be
 used in place of the variable name
@@ -79,13 +79,13 @@ e.g.
 for _ in range(3):
   print("Hello World!")
 
-#the above block of code will output three print statements and we omitted the variable
-consideration by "_"
+# the above block of code will output three print statements and we omitted the variable
+# consideration by "_"
                              
 *** Module (collection of classes)
-import random               #random is a module
-random.random()             #random() is a function inside the random module
-random.randrange(1, 7)      #randrange(1, 7) is a function inside the random module
+import random               # random is a module
+random.random()             # random() is a function inside the random module
+random.randrange(1, 7)      # randrange(1, 7) is a function inside the random module
 
 *** Don't want to mention random module everytime you call a function, then do the following:
 from rendom import random, randrange
@@ -111,9 +111,9 @@ m = """ or '''
     """ or '''
 
 *** Tuples are immutable whereas Lists are mutable.
-Single element tuple should be => (100,) #the comma sends message to the interpreter that,
-                                         #we are trying to make a single element tuple
-                                         #instead of a parenthesis closed integer
+Single element tuple should be => (100,) # the comma sends message to the interpreter that,
+                                         # we are trying to make a single element tuple
+                                         # instead of a parenthesis closed integer
 
 *** Negative indexing
 Suppose, a string str = "Python"; Negative indexing will be like below:
@@ -122,16 +122,16 @@ Suppose, a string str = "Python"; Negative indexing will be like below:
                         
 *** Indexing and Slicing
 Suppose, L is a list, then indexing will be L[0], L[3], L[5], L[9] etc.
-Slicing will be L[0:4]  #items from index 0 to index (4 - 1) = 3
-                L[3:7]  #items from index 3 to index (7 - 1) = 6
-                L[:5]   #all items from start to index (5 - 1) = 4
-                L[5:]   #all items from index 5 to end of the list
+Slicing will be L[0:4]  # items from index 0 to index (4 - 1) = 3
+                L[3:7]  # items from index 3 to index (7 - 1) = 6
+                L[:5]   # all items from start to index (5 - 1) = 4
+                L[5:]   # all items from index 5 to end of the list
 
 *** List item repetition
 print([0] * 4) => [0, 0, 0, 0]
 print([5, 1] * 5) => [5, 1, 5, 1, 5, 1, 5, 1, 5, 1]
-#any list multiplied by an integer i, will produce repetition of the list
-#i times
+# any list multiplied by an integer i, will produce repetition of the list
+# i times
 
 *** count() function counts the number of apperance of provided argument in a
 sequence
@@ -148,6 +148,30 @@ sequence
     # prints out => red green blue
     
 *** for x in range(4): => x is loop variable
+
+*** range() function produces what's called an iterable, something that will generate the
+numbers zero through the (integer argument - 1) when we iterate through them in a four loop.
+So if I, say for I in range of five it will print out the numbers zero, one, two, three and four.
+If I actually want a real list, I would have to cast it. I would take range of five and pass it
+to the list function which would turn it into a real list.
+### In Runestone Environment:
+range(5) => [0, 1, 2, 3, 4]
+range(10) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+### In actual Python environment implementation:
+>>> print(range(5))
+range(0, 5)
+>>> print(type(range(5)))
+<class 'range'>
+for i in range(5):
+  print(i)
+# output
+0
+1
+2
+3
+4
+
 
 
 
