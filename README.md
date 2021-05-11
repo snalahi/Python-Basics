@@ -151,9 +151,9 @@ sequence
 
 *** range() function produces what's called an iterable, something that will generate the
 numbers zero through the (integer argument - 1) when we iterate through them in a four loop.
-So if I, say for I in range of five it will print out the numbers zero, one, two, three and four.
-If I actually want a real list, I would have to cast it. I would take range of five and pass it
-to the list function which would turn it into a real list.
+So if I, say for I in range of five it will print out the numbers zero, one, two, three and
+four. If I actually want a real list, I would have to cast it. I would take range of five
+and pass it to the list function which would turn it into a real list.
 ### In Runestone Environment:
 range(5) => [0, 1, 2, 3, 4]
 range(10) => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
