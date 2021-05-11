@@ -183,5 +183,53 @@ for i in range(5):
 *** An integer is not a sequence and that is why it is uniterable
 Iterables are always sequences like lists, strings, tuples etc.
 
+*** Lists are mutable, Strings are immutable
+
+*** List item deletion
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+del a[1:5]
+print(a) => [1, 6, 7, 8, 9]
+b = [5, 6, 7, 8]
+del b[2]
+print(b) => [5, 6, 8]
+
+*** "==" checks whether the objects are equivalent or not (it means even if the objects have
+         same structure and content with different ids, the outcome will be True. The objects
+         can be completely different while storing in the memory but they are equivalent in
+         nature. e.g. a == b is True when a and b are aliases of the same object or they are
+         pointing to objects which are equivalent to each other)
+         
+    "is" checks whether the objects are completely same or not with same id (e.g. a is b will
+         be True if a and b are the aliases of a same object in memory with same id and content)
+         
+*** Aliasing and mutable objects (List) can create confusion in code. BE AWARE OF THAT !!!
+
+*** Cloning (Deep Copy)
+a = [81, 82, 83]
+b = a[:]                 # creates a new list 'b' with all the contents of list 'a'. So, 'b'
+                         # is a Deep Copy or Clone of 'a'
+print(a == b) => True    # Since 'a' and 'b' are equivalent
+print(a is b) => False   # Since 'a' and 'b' are not same (completely different objects in
+                         # memory)
+b[0] = 5
+
+print(a) => [81, 82, 83]
+print(b) => [5, 82, 83]
+### DEEP COPY (CLONE) WORKED !!! ###
+
+*** Aliasing is only possible with mutable objects (List) and not possible with immutable
+objects (String, Tuples)
+
+*** sort() function re-order the items of a list from smallest to biggest (Ascending Order)
+
+*** pop() function removes the last item from a list and return the value
+(A First In First Out - FIFO Queue mechanism)
+
+
+    
+
+
+
+
 
 ```
