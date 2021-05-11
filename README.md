@@ -171,7 +171,14 @@ for i in range(5):
 2
 3
 4
+>>> print(list(range(5)))
+[0, 1, 2, 3, 4]
 
+*** for item in items: # Here, item => Iterator Variable
+                               items => Iterable
+
+*** An integer is not a sequence and that is why it is uniterable
+Iterables are always sequences like lists, strings, tuples etc.
 
 
 
