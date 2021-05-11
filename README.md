@@ -127,9 +127,28 @@ Slicing will be L[0:4]  #items from index 0 to index (4 - 1) = 3
                 L[:5]   #all items from start to index (5 - 1) = 4
                 L[5:]   #all items from index 5 to end of the list
 
+*** List item repetition
+print([0] * 4) => [0, 0, 0, 0]
+print([5, 1] * 5) => [5, 1, 5, 1, 5, 1, 5, 1, 5, 1]
+#any list multiplied by an integer i, will produce repetition of the list
+#i times
 
+*** count() function counts the number of apperance of provided argument in a
+sequence
+
+*** index() function provides the first position of the given argument in a sequence
+
+*** split() takes a string and split it up in a list of words by the spaces encountered
     
+*** Use of join() function
+    wds = ["red", "green", "blue"]
+    glue = " "
+    output = glue.join(wds)
+    print (output)
+    # prints out => red green blue
     
-    
+*** for x in range(4): => x is loop variable
+
+
 
 ```
