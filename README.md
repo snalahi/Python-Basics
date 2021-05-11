@@ -11,6 +11,9 @@
 2. Exponentiation
 3. Multiplication and Division
 4. Addition and Subtraction
+5. Comparison Operators (==, !=, >, >=, <, <=)
+6. not Operator (Logical not)
+7. and or Operator (Logical and or)
 
 *** Functions are objects in Python
 e.g. print(square) => <function square>
@@ -179,7 +182,6 @@ for i in range(5):
 
 *** An integer is not a sequence and that is why it is uniterable
 Iterables are always sequences like lists, strings, tuples etc.
-
 
 
 ```
