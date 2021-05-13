@@ -280,7 +280,7 @@ s = "saw"
 # it can be done by following line of code
 s = s[::-1]
 # Lets clarify what's happening here:
-# Extended slice offers to put a “step” field as [start,stop,step], and giving no field as start
-# and stop indicates default to 0 and string length respectively and “-1” denotes starting from
-# end and stop at the start, hence reversing string.
+# Extended slice offers to put a “step” field as [start,stop,step], and giving no field as
+# start and stop indicates default to 0 and string length respectively and “-1” denotes
+# starting from end and stop at the start, hence reversing string.
 ```
