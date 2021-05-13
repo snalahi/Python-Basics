@@ -200,7 +200,8 @@ print(b) => [5, 6, 8]
          pointing to objects which are equivalent to each other)
          
     "is" checks whether the objects are completely same or not with same id (e.g. a is b will
-         be True if a and b are the aliases of a same object in memory with same id and content)
+         be True if a and b are the aliases of a same object in memory with same id and
+         content)
          
 *** Aliasing and mutable objects (List) can create confusion in code. BE AWARE OF THAT !!!
 
@@ -225,7 +226,9 @@ objects (String, Tuples)
 *** pop() function removes the last item from a list and return the value
 (A First In First Out - FIFO Queue mechanism)
 
-*** append() function does not create a new object. Just mutate the old object
+*** append() function does not create a new object. Just mutate the old object.
+append() can be also performed by += operator but UASUALLY DON'T DO THAT !!! THAT CAN BE
+REALLY CONFUSING IN SOME CASES.
 e.g.
 items = [1, 2, 3]
 items.append("cat")
@@ -266,11 +269,4 @@ print("${:.2f} discounted by {}% is {:.2f}.".format(orig_price, discount, new_pr
 
 If nothing is provided within the {}, then the default places will be printed after the
 decimal point.
-
-
-
-
-
-
-
 ```
