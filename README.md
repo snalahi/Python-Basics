@@ -1,4 +1,4 @@
-# Python-Basics-Python3-Specialization
+# Python-Basics
 ```
 *** Truncated division in python:
 (10 // 3) => 3; Wipes out all the decimal points
