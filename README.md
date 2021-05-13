@@ -225,8 +225,49 @@ objects (String, Tuples)
 *** pop() function removes the last item from a list and return the value
 (A First In First Out - FIFO Queue mechanism)
 
+*** append() function does not create a new object. Just mutate the old object
+e.g.
+items = [1, 2, 3]
+items.append("cat")
+print(items) => [1, 2, 3, "cat"]   # same list object just added "cat" at the end of the list
+                                   # list mutation
+n_items = [1, 2, 3]
+n_items = n_items + ["cat"]        # concatenation -> "+" operator
+n_items => [1, 2, 3, "cat"]        # completely new list object in memory
+                                   # non - mutation (creating a new one)
+                                   
+*** replace(item1, item2) function => replace item1 by item2
 
-    
+*** Another printing method:
+name = "Rodney"
+score = -1
+print("Hello " + name + ". Your score is " + str(score))
+=> Hello Rodney. Your score is -1
+
+*** Print statement with formatter -> format() function
+scores = [("Rodney", -1), ("Marlon", 1), ("You", 100)]
+for person in scores:
+    name = person[0]
+    score = person[1]
+    print("Hello {}. Your score is {}.".format(name, score))
+
+=> Hello Rodney. Your score is -1.
+   Hello Marlon. Your score is 1.
+   Hello You. Your score is 100.
+
+*** Decimal point formatting while printing
+orig_price = float(input("Enter the price: $"))
+discount = float(input("Enter the discount: "))
+new_price = (1 - discount / 100) * orig_price
+print("${:.2f} discounted by {}% is {:.2f}.".format(orig_price, discount, new_price))
+
+=> inputs: orig_price = $1000, discount = 20
+=> output: $1000.00 discounted by 20.0% is 800.00.
+
+If nothing is provided within the {}, then the default places will be printed after the
+decimal point.
+
+
 
 
 
