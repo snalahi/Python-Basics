@@ -269,4 +269,7 @@ print("${:.2f} discounted by {}% is {:.2f}.".format(orig_price, discount, new_pr
 
 If nothing is provided within the {}, then the default places will be printed after the
 decimal point.
+
+*** DON'T USE THE WORD "LIST" IN YOUR VARIABLE NAME. BECAUSE THAT CAN BE REALLY CONFUSING
+LATER ON IN THE PROGRAM. ACTUALLY THIS IS A BAD PRACTICE. SO, IT'S BETTER TO AVOID IT !!!
 ```
