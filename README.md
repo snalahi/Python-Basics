@@ -272,4 +272,15 @@ decimal point.
 
 *** DON'T USE THE WORD "LIST" IN YOUR VARIABLE NAME. BECAUSE THAT CAN BE REALLY CONFUSING
 LATER ON IN THE PROGRAM. ACTUALLY THIS IS A BAD PRACTICE. SO, IT'S BETTER TO AVOID IT !!!
+
+*** String reversal in Python
+s = "was"
+# after reversal
+s = "saw"
+# it can be done by following line of code
+s = s[::-1]
+# Lets clarify what's happening here:
+# Extended slice offers to put a “step” field as [start,stop,step], and giving no field as start
+# and stop indicates default to 0 and string length respectively and “-1” denotes starting from
+# end and stop at the start, hence reversing string.
 ```
