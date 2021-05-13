@@ -40,11 +40,28 @@ for w in sent_lst:
             acro = acro + ". "
 
             
+# A palindrome is a phrase that, if reversed, would read the exact same. Write code that checks if p_phrase is a palindrome by reversing it and then
+# checking if the reversed version is equal to the original. Assign the reversed version of p_phrase to the variable r_phrase so that we can check
+# your work.
+
+p_phrase = "was it a car or a cat I saw"
+p_phrase_lst = list(p_phrase.split())
+p_phrase_lst.reverse()
+r_phrase_lst = p_phrase_lst
+collect = []
+for w in r_phrase_lst:
+    w = w[::-1]
+    collect.append(w)
+r_phrase = " ".join(collect)
 
             
-            
-            
-            
-            
-            
-            
+# Provided is a list of data about a store’s inventory where each item in the list represents the name of an item, how much is in stock, and how much
+# it costs. Print out each item in the list with the same formatting, using the .format method (not string concatenation). For example, the first
+# print statment should read The store has 12 shoes, each for 29.99 USD.
+
+inventory = ["shoes, 12, 29.99", "shirts, 20, 9.99", "sweatpants, 25, 15.00", "scarves, 13, 7.75"]
+for item in inventory:
+    item = item.replace(",", "")
+    item_lst = list(item.split())
+    print("The store has {} {}, each for {} USD."
+          .format(item_lst[1], item_lst[0], item_lst[2]))
